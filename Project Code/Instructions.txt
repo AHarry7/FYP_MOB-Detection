@@ -1,0 +1,18 @@
+    Open fypreact folder in vscode. 
+    Make sure you are inside the fypreact directory. 
+    Now run the command: npm install
+    For example your fypreact folder is inside a folder named project inside drive G. 
+    You first need to get inside this directory in the terminal with the command
+    cd G:\project\fypreact and then run the command npm install
+    
+    Now get inside yolov5 directory by doing the same and run the command: pip install -r requirements
+
+    Open fypreact and yolov5 both directories in VScode side by side in separate windows.
+
+    In yolov5 window terminal, run the command: uvicorn fast_api:app reload
+
+    In fypreact window terminal, run the command yarn start
+
+   Upload any image from dataset for detection.
+ 
+   Congrats, you are good to go!!! 
